@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="img/favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="img/favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+
+    <title>
+      Полезные советы на каждый день. Видеолайфхаки, статьи и советы экспертов
+    </title>
+    <meta name="Author" content="Рональд Руэл Толкиен" />
+    <meta
+      name="Description"
+      content="Жил-был в норе под землей хоббит. Нора была хоббичья, а значит — благоустроенная."
+    />
+    <meta name="Keywords" content="Хоббит, нежданное путешествие, Толкиен" />
+    <meta name="Copyright" content="Warner Bros." />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="nav">
+      <div class="nav-wrapper">
+        <div class="container nav-container">
+          <a href="#" class="logo">
+            <img
+              src="/img/navbar/logo.svg"
+              alt="Logo: sova.ru"
+              class="logo__image"
+            />
+          </a>
+          <button class="nav-menu__button">
+            <svg
+              class="square-burger"
+              width="45"
+              height="45"
+              viewBox="0 0 45 45"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="1"
+                y="1"
+                width="16"
+                height="16"
+                stroke="white"
+                stroke-width="2"
+              />
+              <rect
+                x="28"
+                y="1"
+                width="16"
+                height="16"
+                stroke="white"
+                stroke-width="2"
+              />
+              <rect
+                x="28"
+                y="28"
+                width="16"
+                height="16"
+                stroke="white"
+                stroke-width="2"
+              />
+              <rect
+                x="1"
+                y="28"
+                width="16"
+                height="16"
+                stroke="white"
+                stroke-width="2"
+              />
+            </svg>
+          </button>
+          <div class="nav-menu">
+            <ul class="nav-menu-list">
+              <li class="nav-menu-list__item"><a href="#">ГЛАВНАЯ</a></li>
+              <li class="nav-menu-list__item"><a href="#">НОВОСТИ</a></li>
+              <li class="nav-menu-list__item"><a href="#">О НАС</a></li>
+              <li class="nav-menu-list__item"><a href="#">ТУДА</a></li>
+              <li class="nav-menu-list__item"><a href="#">СЮДА</a></li>
+            </ul>
+            <div class="popup-container--mobile">
+              <button class="popup-container__button" data-toggle="modal">
+                ДАЙТЕ МНЕ ОТКРЫТЬ ПОПАП!
+              </button>
+            </div>
+          </div>
+        </div>
+        <!--   .container-menu     -->
+      </div>
+      <!-- .nav-container   -->
+    </header>
+    <!-- .nav -->
+    <aside class="popup">
+      <div class="popup-container">
+        <button class="popup-container__button" data-toggle="modal">
+          ДАЙТЕ МНЕ ОТКРЫТЬ ПОПАП!
+        </button>
+      </div>
+    </aside>
+    <!--.popup-->
+    <article class="article">
+      <div class="container">
+        <div class="article-start">
+          <div class="article-start__wrapper">
+            <h1 class="article-start__title">НЕЖДАННЫЕ ГОСТИ</h1>
+            <div class="article-start__image">
+              <img
+                src="img/article/gendalf.jpg"
+                alt="gendalf-image"
+                class="article-start__image-item-1"
+              />
+              <div class="article-start__image-2">
+                <img
+                  src="img/article/gnomes.jpg"
+                  alt="gnomes-image"
+                  class="article-start__image-item-2"
+                />
+                <img
+                  src="img/article/elves.jpg"
+                  alt="elves-image"
+                  class="article-start__image-item-2"
+                />
+              </div>
+            </div>
+            <div class="article-start__closing">
+              <div class="article-start__closing-author">
+                <span class="article-start__closing-author-content"
+                  >Автор: Рональд Руэл Толкиен</span
+                >
+              </div>
+              <div class="stars article-start__stars">
+                <img
+                  src="img/stars/star-filled.svg"
+                  alt="image-star"
+                  class="star"
+                />
+                <img
+                  src="img/stars/star-filled.svg"
+                  alt="image-star"
+                  class="star"
+                />
+                <img
+                  src="img/stars/star-filled.svg"
+                  alt="image-star"
+                  class="star"
+                />
+                <img
+                  src="img/stars/star-filled.svg"
+                  alt="image-star"
+                  class="star"
+                />
+                <svg
+                  class="star-empty"
+                  width="40"
+                  height="42"
+                  viewBox="0 0 40 38"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M20 1.61804L24.2393 14.6652L24.3515 15.0106H24.7148H38.4333L27.3348 23.0742L27.0409 23.2877L27.1532 23.6332L31.3924 36.6803L20.2939 28.6168L20 28.4033L19.7061 28.6168L8.60756 36.6803L12.8468 23.6332L12.9591 23.2877L12.6652 23.0742L1.56665 15.0106H15.2852H15.6485L15.7607 14.6652L20 1.61804Z"
+                    stroke="#572A6B"
+                  />
+                </svg>
+              </div>
+            </div>
+            <!--.article-start__wrapper-->
+          </div>
+          <!--.article-start-->
+          <div class="article-content">
+            <div class="article-content__wrapper">
+              <div class="article-content__paragraph">
+                <p class="paragraph-1">
+                  Жил-был в норе под землей хоббит. Не в какой-то там мерзкой
+                  грязной сырой норе, где со всех сторон торчат хвосты червей и
+                  противно пахнет плесенью, но и не в сухой песчаной голой норе,
+                  где не на что сесть и нечего съесть. Нет, нора была хоббичья,
+                  а значит — благоустроенная.
+                </p>
+                <p class="paragraph-2">
+                  Она начиналась идеально круглой, как иллюминатор, дверью,
+                  выкрашенной зеленой краской, с сияющей медной ручкой точно
+                  посередине. Дверь отворялась внутрь, в длинный коридор,
+                  похожий на железнодорожный туннель, но туннель без гари и без
+                  дыма и тоже очень благоустроенный: стены там были обшиты
+                  панелями, пол выложен плитками и устлан ковром, вдоль стен
+                  стояли полированные стулья, и всюду были прибиты крючочки для
+                  шляп и пальто, так как хоббит любил гостей. Туннель вился все
+                  дальше и дальше и заходил довольно глубоко, но не в самую
+                  глубину Холма, как его именовали жители на много миль в
+                  окружности. По обеим сторонам туннеля шли двери — много-много
+                  круглых дверей. Хоббит не признавал восхождений по лестницам:
+                  спальни, ванные, погреба, кладовые (целая куча кладовых),
+                  гардеробные (хоббит отвел несколько комнат под хранение
+                  одежды), кухни, столовые располагались в одном этаже и, более
+                  того, в одном и том же коридоре. Лучшие комнаты находились по
+                  левую руку, и только в них имелись окна — глубоко сидящие
+                  круглые окошечки с видом на сад и на дальние луга,
+                  спускавшиеся к реке.
+                </p>
+                <p class="paragraph-3">
+                  Наш хоббит был весьма состоятельным хоббитом по фамилии
+                  Бэггинс. Бэггинсы проживали в окрестностях Холма с
+                  незапамятных времен и считались очень почтенным семейством не
+                  только потому, что были богаты, но и потому, что с ними
+                  никогда и ничего не приключалось и они не позволяли себе
+                  ничего неожиданного: всегда можно было угадать заранее, не
+                  спрашивая, что именно скажет тот или иной Бэггинс по тому или
+                  иному поводу. Но мы вам поведаем историю о том, как одного из
+                  Бэггинсов втянули-таки в приключения и, к собственному
+                  удивлению, он начал говорить самые неожиданные вещи и
+                  совершать самые неожиданные поступки. Может быть, он и потерял
+                  уважение соседей, но зато приобрел... впрочем, увидите сами,
+                  приобрел он в конце концов или нет. Матушка нашего хоббита...
+                  кстати, кто такой хоббит? Пожалуй, стоит рассказать о хоббитах
+                  подробнее, так как в наше время они стали редкостью и
+                  сторонятся Высокого Народа, как они называют нас, людей. Сами
+                  они низкорослый народец, примерно в половину нашего роста и
+                  пониже бородатых гномов. Бороды у хоббитов нет. Волшебного в
+                  них тоже, в общем-то, ничего нет, если не считать волшебным
+                  умение быстро и бесшумно исчезать в тех случаях, когда всякие
+                  бестолковые, неуклюжие верзилы, вроде нас с вами, с шумом и
+                  треском ломятся, как слоны. У хоббитов толстенькое брюшко;
+                  одеваются они ярко, преимущественно в зеленое и желтое;
+                  башмаков не носят, потому что на ногах у них от природы
+                  жесткие кожаные подошвы и густой теплый бурый мех, как и на
+                  голове. Только на голове он курчавится. У хоббитов длинные
+                  ловкие темные пальцы на руках, добродушные лица; смеются они
+                  густым утробным смехом (особенно после обеда, а обедают они,
+                  как правило дважды в день, если получится).
+                </p>
+                <p class="paragraph-4">
+                  Теперь вы знаете достаточно, и можно продолжать. Как я уже
+                  сказал, матушка нашего хоббита, то есть Бильбо Бэггинса, была
+                  легендарная Белладонна Тук, одна из трех достопамятных дочерей
+                  Старого Тука, главы хоббитов, живших По Ту Сторону Реки, то
+                  есть речушки, протекавшей у подножия Холма. Поговаривали,
+                  будто давным-давно кто-то из Туков взял себе жену из эльфов.
+                  Глупости, конечно, но и до сих пор во всех Туках и в самом
+                  деле проскальзывало что-то не совсем хоббитовское: время от
+                  времени кто-нибудь из клана Туков пускался на поиски
+                  приключений. Он исчезал вполне деликатно, и семья старалась
+                  замять это дело. Но факт остается фактом: Туки считались не
+                  столь почтенным родом, как Бэггинсы, хотя, вне всякого
+                  сомнения, были богаче. Нельзя, правда, сказать, что после того
+                  как Белладонна Тук вышла замуж за мистера Банго Бэггинса, она
+                  когда-нибудь пускалась на поиски приключений...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--.article-start-->
+      </div>
+      <!--.container-->
+    </article>
+    <!--.article-->
+    <section class="article-end">
+      <div class="container">
+        <div class="article-end__wrapper">
+          <h2 class="article-end__watch-similar">
+            Смотрите также похожие статьи:
+          </h2>
+          <div class="article-end__similar-cards">
+            <div class="article-end__card">
+              <a href="#" class="link-wrapper"></a>
+              <div class="article-end__card-top">
+                <div class="article-end__avatar-wrapper">
+                  <img
+                    src="img/article-end/nick-perumov.jpg"
+                    alt="nick-perumnov image"
+                    class="article-end__avatar"
+                  />
+                </div>
+                <div class="article-end__name-rating">
+                  <div class="article-end__top-line">
+                    <h2 class="article-end__similar-title--top-line">
+                      Выход новой книги!
+                    </h2>
+                  </div>
+                  <div class="article-end__name-rating-wrapper">
+                    <span class="article-end__next-name">Ник Перумов</span>
+                    <div class="stars article-start__stars">
+                      <img
+                        src="img/stars/star-filled.svg"
+                        alt="image-star"
+                        class="star"
+                      />
+                      <img
+                        src="img/stars/star-filled.svg"
+                        alt="image-star"
+                        class="star"
+                      />
+                      <img
+                        src="img/stars/star-filled.svg"
+                        alt="image-star"
+                        class="star"
+                      />
+                      <img
+                        src="img/stars/star-filled.svg"
+                        alt="image-star"
+                        class="star"
+                      />
+                      <img
+                        src="img/stars/Star-filled-nostroke.svg"
+                        alt="image-star-nostroke"
+                        class="star star-nostroke"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="article-end__card-bottom">
+                <h2 class="article-end__similar-title">Выход новой книги!</h2>
+                <p class="article-end__next-snippet">
+                  Неспокойные времена грядут в благословенной Долине магов.
+                  Гильдия боевых магов достигла своего расцвета: заказы из
+                  разных миров сыплются один за другим, другие Гильдии требуют
+                  сопровождения в путешествиях, а боевых магов на всех не
+                  хватает. Однако законы Долины, приведут к катастрофе...
+                </p>
+              </div>
+            </div>
+            <div class="article-end__card article-end__card--mt40">
+              <a href="#" class="link-wrapper"></a>
+              <div class="article-end__card-top">
+                <div class="article-end__avatar-wrapper">
+                  <img
+                    src="img/article-end/andjei-sapkovski.jpg"
+                    alt="andjei-sapkovski image"
+                    class="article-end__avatar"
+                  />
+                </div>
+                <div class="article-end__name-rating">
+                  <div class="article-end__top-line">
+                    <h2 class="article-end__similar-title--top-line">
+                      Выход новой книги!
+                    </h2>
+                  </div>
+                  <div class="article-end__name-rating-wrapper">
+                    <span class="article-end__next-name">Анжей Сапковский</span>
+                    <div class="stars article-start__stars">
+                      <img
+                        src="img/stars/star-filled.svg"
+                        alt="image-star"
+                        class="star"
+                      />
+                      <img
+                        src="img/stars/star-filled.svg"
+                        alt="image-star"
+                        class="star"
+                      />
+                      <img
+                        src="img/stars/star-filled.svg"
+                        alt="image-star"
+                        class="star"
+                      />
+                      <img
+                        src="img/stars/star-empty.svg"
+                        alt="image-star-empty"
+                        class="star star-empty"
+                      />
+                      <img
+                        src="img/stars/star-empty.svg"
+                        alt="image-star-empty"
+                        class="star star-empty"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="article-end__card-bottom">
+                <h2 class="article-end__similar-title">
+                  Анжею не понравился сериал...
+                </h2>
+                <p class="article-end__next-snippet">
+                  Автор фэнтезийного цикла книг "Ведьмак" Анджей Сапковский
+                  вновь опроверг свой статус фаната номер один одноимённого
+                  сериала Netflix. Я более чем недоволен исполнением ведьмака
+                  Генри Кавиллом. Лучше бы бомжа польского поймали, вышло бы
+                  намного ближе к Геральту...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--.container-->
+    </section>
+    <!--.article-end-->
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <span class="copyright">
+          Права обладателя сей наипрекраснейшей странички. Жмите для
+          ознакомления, сударь. BODRYI-FILIN@2021г.
+        </span>
+      </div>
+    </footer>
+    <!--.footer-->
+    <div class="modal">
+      <div class="modal__overlay"></div>
+      <!-- /.modal__overlay -->
+      <div class="modal__dialog">
+        <a href="#" class="modal__close">
+          <img src="/img/modal/close.svg" alt="close-icon" />
+        </a>
+        <h3 class="modal__title">Sova.ru.net — лучший сайт</h3>
+        <p class="modal__text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam
+          aspernatur eius.
+        </p>
+      </div>
+      <!-- /.modal__dialog -->
+    </div>
+  </body>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</html>

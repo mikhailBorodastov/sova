@@ -1,0 +1,302 @@
+@media (max-width: 1300px)
+  //адаптив навигации + контейнера
+  .container
+    max-width: 84.615vw
+  .nav
+    &-menu-list
+      width: 66.308vw
+      margin: 1.563rem 0
+      &__item
+        font-size: 3vw
+        line-height: 3.125rem
+  .logo__image
+    width: 5.385vw
+
+  //адаптив первой секции
+
+  .article-start
+    margin-top: 9.231vw
+    &__wrapper
+      width: 84.615vw
+      margin: auto
+    &__title
+      font-size: 5.769vw
+      line-height: 4.688rem
+      text-align: center
+    &__image
+      flex-direction: column
+      flex-wrap: wrap
+      height: 96.385vw
+      margin: auto
+      &-item-1
+        width: 84.615vw
+      &-item-2
+        width: 40.692vw
+    &__image-2
+      flex-direction: row
+      width: 84.615vw
+    &__closing
+      width: 84.615vw
+      margin-top: 3.923vw
+    &__closing-author
+      font-size: 2.692vw
+      line-height: 2.625rem
+    &__stars
+      width: 19.231vw
+  .star
+    width: 3.231vw
+
+  //адаптив контента статьи
+
+  .article-content
+    margin-top: 5.385vw
+    &__paragraph
+      font-size: 1.625rem
+      line-height: 2.438rem
+
+  //адаптив похожих статей
+  .article-end
+    margin-top: 7.692vw
+    &__card
+      max-width: 84.615vw
+    &__watch-similar
+      font-size: 2.188rem
+      line-height: 2.625rem
+    &__similar-cards
+      flex-direction: column
+      margin-top: 3.438rem
+    &__similar-title
+      display: none
+      &--top-line
+        display: block
+        color: $white
+        margin: 0
+        padding-top: 1.313rem
+        padding-bottom: 1.313rem
+        padding-left: 1.188rem
+        font-weight: 300
+        font-size: 2.188rem
+        line-height: 2.625rem
+    &__top-line
+      width: 68.923vw
+      height: 5.25rem
+    &__name-rating-wrapper
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      width: 68.769vw
+    &__avatar-wrapper
+      margin-right: 3.077vw
+    &__next-name
+      font-size: 2.692vw
+      margin-bottom: 0
+    &__next-snippet
+      font-weight: 300
+      font-size: 1.25rem
+      line-height: 1.875rem
+
+  //адаптив футера
+
+  .footer-wrapper
+    max-height: 100vw
+  .copyright
+    font-size: 1.5rem
+    max-width: 56rem
+    text-align: center
+    padding-top: 3rem
+    padding-bottom: 3rem
+
+  // адаптив попапа
+
+  .popup-container
+    right: -13.292vw
+    &__button
+      font-size: 1.538vw
+      padding: 0 4.154vw 0 4.154vw
+
+
+  .modal
+    &__dialog
+      padding: 2.538vw 6.769vw
+      max-width: 36.769vw
+    &__close
+      right: 1.385vw
+      top: 1.308vw
+    &__title
+      font-size: 5.769vw
+      line-height: 5.769vw
+    &__text
+      font-size: 2.308vw
+
+@media (max-width: 600px)
+  .nav
+    position: absolute
+    &-menu-list
+      flex-direction: column
+      align-items: center
+      padding: 0
+    &-wrapper
+      position: fixed
+      width: 100%
+      top: 0
+      background-color: $primary
+      z-index: 99
+    &-container
+      max-width: 86.111vw
+    &-menu
+      display: none
+      &__mobile-visible
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: center
+        position: fixed
+        left: 0
+        right: 0
+        bottom: 0
+        top: 53px
+        width: 100%
+        height: fit-content
+        background-color: #572a6b
+        padding: 0
+      &__button
+        display: block
+        background-color: $primary
+        border: none
+        transition: 0.4s
+      &__item
+        font-size: 3vw
+        line-height: 3.125rem
+  .logo__image
+    width: 3.125rem
+  .square-burger
+    cursor: pointer
+    &--filled
+      fill: #ffffff
+      transition: ease-in 0.5s
+  .container
+    width: 86.111vw
+
+  .popup-container
+    display: none
+    &--mobile
+      display: block
+      border: none
+    &__button
+      font-size: 3vw
+      border: none
+
+  .article-start
+    margin-top: 16.667vw
+    &__wrapper
+      width: 86.111vw
+      margin: auto
+      justify-content: space-between
+    &__title
+      font-size: 11.111vw
+      line-height: 11.111vw
+      text-align: center
+    &__image
+      flex-direction: column
+      flex-wrap: wrap
+      height: 206.944vw
+      margin: auto
+      &-item-1
+        width: 86.111vw
+      &-item-2
+        width: 86.111vw
+      &-item-3
+        width: 86.111vw
+    &__image-2
+      flex-direction: column
+      width: 86.111vw
+      height: 136.111vw
+    &__closing
+      width: 84.615vw
+      height: 31.389vw
+      margin-top: 3.923vw
+      flex-direction: column
+    &__closing-author
+      font-size: 6.667vw
+      line-height: 8.333vw
+      order: 2
+      text-align: center
+    &__stars
+      width: 55.556vw
+      order: 1
+      align-self: center
+  .star
+    width: 9.333vw
+
+  //адаптив контента статьи
+
+  .article-content
+    margin-top: 16.667vw
+    &__paragraph
+      font-size: 1.25rem
+      line-height: 1.875rem
+
+  //адаптив похожих статей
+
+  .article-end
+    margin-top: 19.444vw
+    &__card
+      max-width: 86.111vw
+      max-height: fit-content
+      &-top
+        width: 81.111vw
+      &--mt40
+        margin-top: 2.5rem
+    &__watch-similar
+      font-size: 6.667vw
+      line-height: 10vw
+      text-align: center
+    &__similar-cards
+      flex-direction: column
+      margin-top: 1.875rem
+      height: fit-content
+    &__similar-title
+      display: block
+      font-size: 6.667vw
+      &--top-line
+        display: none
+        color: $white
+        margin: 0
+        padding-top: 1.313rem
+        padding-bottom: 1.313rem
+        padding-left: 1.188rem
+        font-weight: 300
+        font-size: 2.188rem
+        line-height: 2.625rem
+    &__top-line
+      display: none
+      width: 68.923vw
+      height: 5.25rem
+    &__name-rating-wrapper
+      display: flex
+      flex-direction: column
+      justify-content: space-between
+      width: 55.556vw
+      order: 2
+    &__avatar-wrapper
+      width: 21.6vw
+    &__next-name
+      order: 1
+      font-size: 1.5rem
+      line-height: 10vw
+      margin-bottom: 0
+    &__next-snippet
+      font-weight: 300
+      font-size: 1.25rem
+      line-height: 1.875rem
+
+  //адаптив футера
+
+  .footer-wrapper
+    max-height: 100vw
+  .copyright
+    font-size: 1.25rem
+    max-width: 56rem
+    text-align: center
+    padding-top: 3rem
+    padding-bottom: 3rem
