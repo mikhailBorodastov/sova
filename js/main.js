@@ -7,7 +7,7 @@ $(document).ready(function () {
   modalButton.on("click", openModal);
   closeModalButton.on("click", closeModal);
   modalOverlay.on("click", closeModal);
-  $(document).on("keydown", { keyCode: 27 }, closeModal);
+
 
   function openModal() {
     modalOverlay.addClass("modal__overlay--visible");
